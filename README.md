@@ -1,4 +1,4 @@
-# The Platinum Searcher [![Build Status](https://travis-ci.org/monochromegane/the_platinum_searcher.svg?branch=master)](https://travis-ci.org/monochromegane/the_platinum_searcher) [![wercker status](https://app.wercker.com/status/59ef90ac217537abc0994546958037f3/s/master "wercker status")](https://app.wercker.com/project/bykey/59ef90ac217537abc0994546958037f3)
+# The Platinum Searcher [![Build Status](https://travis-ci.org/monochromegane/filesearch.svg?branch=master)](https://travis-ci.org/monochromegane/filesearch) [![wercker status](https://app.wercker.com/status/59ef90ac217537abc0994546958037f3/s/master "wercker status")](https://app.wercker.com/project/bykey/59ef90ac217537abc0994546958037f3)
 
 A code search tool similar to `ack` and `the_silver_searcher(ag)`. It supports multi platforms and multi encodings.
 
@@ -74,14 +74,14 @@ You can use pt with [pt.el](https://github.com/bling/pt.el), which can be instal
 ### Developer
 
 ```sh
-$ go get -u github.com/monochromegane/the_platinum_searcher/...
+$ go get -u github.com/qiangli/ffilesearch/...
 ```
 
 ### User
 
 Download from the following url.
 
-- [https://github.com/monochromegane/the_platinum_searcher/releases](https://github.com/monochromegane/the_platinum_searcher/releases)
+- [https://github.com/qiangli/ffilesearch/releases](https://github.com/qiangli/ffilesearch/releases)
 
 Or, you can use Homebrew (Only macOS).
 
@@ -89,7 +89,7 @@ Or, you can use Homebrew (Only macOS).
 $ brew install pt
 ```
 
-`pt` is an alias for `the_platinum_searcher` in Homebrew.
+`pt` is an alias for `filesearch` in Homebrew.
 
 ## Contribution
 
@@ -103,7 +103,7 @@ $ brew install pt
 
 ## License
 
-[MIT](https://github.com/monochromegane/the_platinum_searcher/blob/master/LICENSE)
+[MIT](https://github.com/qiangli/ffilesearch/blob/master/LICENSE)
 
 ## Author
 

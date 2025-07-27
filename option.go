@@ -1,4 +1,4 @@
-package the_platinum_searcher
+package filesearch
 
 import "github.com/jessevdk/go-flags"
 
@@ -117,7 +117,7 @@ type SearchOption struct {
 	FilesWithRegexp        func(string) `short:"g" description:"Print filenames matching PATTERN"`
 	EnableFilesWithRegexp  bool         // Enable files with regexp. Not user option.
 	PatternFilesWithRegexp string       // Pattern files with regexp. Not user option.
-	FileSearchRegexp       string       `short:"G" long:"file-search-regexp" description:"PATTERN Limit search to filenames matching PATTERN"`
+	FileSearchRegexp       string       `short:"G" long:"ffilesearch-regexp" description:"PATTERN Limit search to filenames matching PATTERN"`
 	Depth                  int          `long:"depth" default:"25" description:"Search up to NUM directories deep"`
 	Follow                 bool         `short:"f" long:"follow" description:"Follow symlinks"`
 	Hidden                 bool         `long:"hidden" description:"Search hidden files and directories"`

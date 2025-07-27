@@ -1,4 +1,4 @@
-package the_platinum_searcher
+package filesearch
 
 import (
 	"bytes"
@@ -37,7 +37,7 @@ files/context/context.txt:8-after
 	}
 }
 
-// Regression test of https://github.com/monochromegane/the_platinum_searcher/issues/166
+// Regression test of https://github.com/qiangli/file-sefilesearch
 func TestLineGrepBefore(t *testing.T) {
 	opts := defaultOption()
 	opts.OutputOption.Before = 1

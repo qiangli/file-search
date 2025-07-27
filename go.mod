@@ -1,4 +1,4 @@
-module github.com/monochromegane/the_platinum_searcher
+module github.com/qiangli/filesearch
 
 go 1.23.10
 
@@ -14,6 +14,6 @@ require (
 
 require (
 	github.com/BurntSushi/toml v1.5.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
+	golang.org/x/sys v0.21.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

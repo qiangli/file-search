@@ -1,4 +1,4 @@
-package the_platinum_searcher
+package filesearch
 
 type matchState interface {
 	transition(matched bool) matchState

@@ -1,7 +1,7 @@
 //go:build (linux && !appengine) || darwin || freebsd || openbsd || netbsd
 // +build linux,!appengine darwin freebsd openbsd netbsd
 
-package the_platinum_searcher
+package filesearch
 
 import (
 	"bytes"
